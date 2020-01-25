@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input[type="text"]{
+  outline-offset: none !important;
+ border:1px solid #dcdde1  ;
+ border-radius: 2px ;
+  padding: 10px 15px !important;
+
+
+}
+
+input[type="text"]:focus{
+  border: 1px solid #2f3640 !important;
+  outline-offset: none !important;
+  outline:none;
+}
